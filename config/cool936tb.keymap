@@ -16,9 +16,9 @@
     combos {
         compatible = "zmk,combos";
 
-        clear_ble_setting {
+        ms_scrl {
             bindings = <&mo 1>;
-            key-positions = <28 29>;
+            key-positions = <29 30>;
             layers = <1>;
         };
 
