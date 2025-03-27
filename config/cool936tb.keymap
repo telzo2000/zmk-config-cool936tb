@@ -19,7 +19,7 @@
         ms_scrl {
             bindings = <&mo 1>;
             key-positions = <29 30>;
-            layers = <1>;
+            layers = <0>;
         };
 
         shift_tab {
