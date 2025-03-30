@@ -85,7 +85,7 @@
 &mo 4            &kp LEFT_GUI  &kp LALT      &trans      &kp MINUS
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOLUME_UP>;
         };
 
         NUM {
