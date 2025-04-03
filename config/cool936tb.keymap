@@ -146,9 +146,9 @@
 
         layer_7 {
             bindings = <
-&kp F1            &kp F2        &kp F3             &kp F4          &kp F5          &to 4          &kp F6          &kp F7          &kp F8           &kp F9      &kp F10  &kp BSPC
-&kp LEFT_BRACKET  &kp AT_SIGN   &kp DOUBLE_QUOTES  &kp COLON       &kp SQT         &kp LEFT       &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT        &kp ENTER
-&bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2       &kp V           &bt BT_CLR_ALL  &kp LC(EQUAL)  &kp RG(SPACE)   &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp RSHIFT
+&kp F1            &kp F2        &kp F3             &kp F4          &kp F5          &to 4          &kp F6          &kp F7               &kp F8               &kp F9      &kp F10  &kp BSPC
+&kp LEFT_BRACKET  &kp AT_SIGN   &kp DOUBLE_QUOTES  &kp COLON       &kp SQT         &kp LEFT       &kp DOWN_ARROW  &kp UP_ARROW         &kp RIGHT            &kp ENTER
+&bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2       &kp V           &bt BT_CLR_ALL  &kp LC(EQUAL)  &kp RG(SPACE)   &kp LS(RIGHT_BRACE)  &kp LS(NON_US_HASH)  &kp RSHIFT
 &kp LCTRL         &kp LGUI      &kp LALT           &kp UNDERSCORE  &trans
             >;
         };
