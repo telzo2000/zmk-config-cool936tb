@@ -152,5 +152,14 @@
 &kp LCTRL         &kp LGUI      &kp LALT           &kp UNDERSCORE  &trans
             >;
         };
+
+        layer_8 {
+            bindings = <
+&trans  &trans  &trans  &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans    &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans    &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &mkp MB1  &mkp MB2
+            >;
+        };
     };
 };
