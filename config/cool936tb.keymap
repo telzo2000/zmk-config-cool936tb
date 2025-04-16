@@ -103,9 +103,9 @@
 
         NUM {
             bindings = <
-&kp F1        &kp F2        &kp F3             &kp F4          &kp F5          &to 4          &kp F6          &kp F7          &kp F8           &kp F9      &kp F10  &kp BSPC
+&kp F1        &kp F2        &kp F3             &kp F4          &kp F5          &to 4          &kp F6          &kp F7          &kp F8           &kp F9      &kp F10  &bt BT_CLR_ALL
 &kp AT_SIGN   &kp SQT       &kp DOUBLE_QUOTES  &kp SEMICOLON   &kp COLON       &kp LEFT       &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT        &kp ENTER
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2       &kp V           &bt BT_CLR_ALL  &kp LC(SPACE)  &kp RG(SPACE)   &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp RSHIFT
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2       &bt BT_SEL 3    &bt BT_CLR_ALL  &kp LC(SPACE)  &kp RG(SPACE)   &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp RSHIFT
 &kp LCTRL     &kp LGUI      &kp LALT           &kp UNDERSCORE  &trans
             >;
 
