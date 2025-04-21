@@ -2,6 +2,8 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 120 // (好きな値)
+
 
 #define MOUSE 4
 #define SCROLL 5
