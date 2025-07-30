@@ -129,7 +129,7 @@
 &mo 0  &kp LEFT_GUI    &kp LEFT_ALT    &mkp MB1      &mkp MB2
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
         SCROLL {
