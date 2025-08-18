@@ -2,7 +2,7 @@
 #include <input/processors.dtsi>
 
 &zip_temp_layer {
-    require-prior-idle-ms = <5>;
+    require-prior-idle-ms = <10>;
 };
 
 / {
@@ -10,7 +10,7 @@
         compatible = "zmk,input-listener";
         device = <&trackball>;
 
-        input-processors = <&zip_temp_layer 5 10000>;
+        input-processors = <&zip_temp_layer 4 10000>;
     };
 };
 
